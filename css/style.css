@@ -16,9 +16,34 @@ body {
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
+.heading-primary {
+  font-size: 4rem; }
+
+.heading-secondary {
+  font-size: 2rem;
+  margin-right: 15rem;
+  margin-top: 1rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.btn-text {
+  font-size: 2rem;
+  color: #3B95FF;
+  text-decoration: none; }
+
 .navbar {
   font-size: 1.8rem;
-  padding-bottom: 10px; }
+  padding-bottom: 1rem; }
   .navbar .nav-list {
     list-style-type: none;
     display: none; }
@@ -27,21 +52,21 @@ body {
       color: #333; }
     .navbar .nav-list li {
       text-align: center;
-      margin: 15px auto; }
+      margin: 1.5rem auto; }
   .navbar .logo-link {
     text-decoration: none;
     color: #333;
     display: inline-block;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 50px; }
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    margin-left: 5rem; }
   .navbar .navbar-toggle {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 1rem;
+    right: 2rem;
     cursor: pointer;
     color: #333;
-    font-size: 24px; }
+    font-size: 2.4rem; }
   .navbar #chkToggle {
     display: none; }
   .navbar #chkToggle:checked + ul.nav-list {
@@ -52,20 +77,28 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
+    height: 7rem;
     align-items: center; }
     .navbar #chkToggle:checked + ul.nav-list {
       display: flex; }
     .navbar .nav-list {
       display: flex;
-      margin-right: 30px;
+      margin-right: 3rem;
       flex-direction: row;
       justify-content: flex-end; }
     .navbar .nav-list li {
       margin: 0; }
     .navbar .nav-links {
-      margin-left: 40px; }
+      margin-left: 4rem; }
     .navbar .logo-link {
       margin-top: 0; }
     .navbar .navbar-toggle {
       display: none; } }
+
+.header {
+  height: 95vh;
+  position: relative; }
+
+.header__main {
+  padding-top: 15rem;
+  margin-left: 5rem; }

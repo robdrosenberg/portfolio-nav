@@ -1,6 +1,6 @@
 .navbar{
     font-size: 1.8rem;
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
     
     .nav-list{
         list-style-type: none;
@@ -12,7 +12,7 @@
         }
         li{
             text-align: center;
-            margin: 15px auto;
+            margin: 1.5rem auto;
         }
         
     }
@@ -20,18 +20,18 @@
         text-decoration: none;
         color: $color-dark;
         display: inline-block;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-left: 50px
+        font-size: 2.2rem;
+        margin-top: 1rem;
+        margin-left: 5rem;
     }
 
     .navbar-toggle{
         position: absolute;
-        top: 10px;
-        right: 20px;
+        top: 1rem;
+        right: 2rem;
         cursor: pointer;
         color: $color-dark;
-        font-size: 24px;
+        font-size: 2.4rem;
     }
     
     #chkToggle {
@@ -48,7 +48,7 @@
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
-        height: 70px;
+        height: 7rem;
         align-items: center;
         #chkToggle:checked + ul.nav-list {
             display: flex;
@@ -56,7 +56,7 @@
 
         .nav-list {
             display: flex;
-            margin-right: 30px;
+            margin-right: 3rem;
             flex-direction: row;
             justify-content: flex-end;
         }
@@ -66,7 +66,7 @@
         }
 
         .nav-links {
-            margin-left: 40px;
+            margin-left: 4rem;
         }
 
         .logo-link {
